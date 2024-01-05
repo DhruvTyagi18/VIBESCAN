@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIBESCAN</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            width: max-content;
+            max-width: 800px;
+            margin: auto;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #333; /* Adjust color as needed */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: max-content;
+            padding: 10px;
+            font-size: large;
+            margin: auto;
+            display: block;
+            border-radius: 8px;
+            border: 2px solid coral;
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        button[disabled] {
+            background-color: lightcoral;
+            border-color: lightpink;
+            cursor: not-allowed;
+        }
+
+        p {
+            font-size: medium;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>VIBESCAN</h1>
+    <button id="summarise" type="button">Let's Scan Video's Vibe</button>
+    <br/>
+    <p id="output"></p>
+    <script src="popup.js"></script>
+</body>
+</html>

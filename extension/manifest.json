@@ -1,0 +1,26 @@
+{ 
+    "manifest_version": 3,
+    "name": "VIBESCAN:-Video Briefing with Enhanced Summarization and Content Analysis",
+    "description": "VIBESCAN is a dynamic browser extension designed to revolutionize your video-watching experience. Seamlessly integrating into your browser, VIBESCAN harnesses the power of advanced transcript analysis and content summarization. With a swift scan, it distills lengthy YouTube videos into concise, information-rich summaries, enabling you to grasp key insights without the need for extensive viewing.",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    
+    "action": {
+        "default_title": "Let's Check the vibe",
+        "default_icon": {
+            "16": "images/icon.png",
+            "32": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
